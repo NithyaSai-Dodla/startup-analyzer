@@ -1,0 +1,9 @@
+crewai
+scikit-learn
+pytrends
+pandas
+numpy
+requests
+serpapi
+python-dotenv
+litellm
