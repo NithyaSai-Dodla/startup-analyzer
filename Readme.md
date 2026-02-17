@@ -56,4 +56,3 @@ The project uses a **hybrid architecture**:
 
 ---
 
-## 📁 Project Structure (Suggested)
