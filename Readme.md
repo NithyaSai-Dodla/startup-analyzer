@@ -1,11 +1,11 @@
-# 🚀 Startup Idea Analyzer (CrewAI + Ollama)
+#  Startup Idea Analyzer (CrewAI + Ollama)
 
 An agentic system that analyzes startup ideas and generates:
-- 📊 Market competition insights
-- 📈 Trend analysis (Google Trends)
-- ⚠️ Risk assessment
-- 💡 Strategy recommendations
-- 🗺️ Phased execution roadmap
+- Market competition insights
+- Trend analysis (Google Trends)
+- Risk assessment
+- Strategy recommendations
+- Phased execution roadmap
 
 The project uses a **hybrid architecture**:
 - Real data where it matters (Market + Trends)
@@ -14,18 +14,18 @@ The project uses a **hybrid architecture**:
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🔎 **Market Agent (API-based)**  
+-  **Market Agent (API-based)**  
   Uses SerpAPI + TF-IDF similarity to estimate competition and market crowdedness.
 
-- 📈 **Trend Agent (Data-based, no paid API)**  
+-  **Trend Agent (Data-based, no paid API)**  
   Uses `pytrends` to analyze Google Trends and compute a trend score.
 
-- ⚠️ **Risk Agent (Hybrid: Rules + LLM)**  
+-  **Risk Agent (Hybrid: Rules + LLM)**  
   Combines deterministic rules with Ollama LLM to enrich and refine risks.
 
-- 💡 **Strategy Agent (Hybrid: Rules + LLM)**  
+-  **Strategy Agent (Hybrid: Rules + LLM)**  
   Generates core strategies from signals and uses LLM to add missing angles:
   - Partnerships
   - Pricing & monetization
@@ -33,18 +33,18 @@ The project uses a **hybrid architecture**:
   - Distribution & GTM
   - Operations & execution
 
-- 🗺️ **Roadmap Agent (Rule-based)**  
+-  **Roadmap Agent (Rule-based)**  
   Produces a phased execution plan: Validate → Build → Launch → Scale.
 
-- 🧠 **Local LLM via Ollama**  
+-  **Local LLM via Ollama**  
   No paid LLM APIs required for reasoning agents.
 
-- 🧩 **CrewAI Orchestrator**  
+-  **CrewAI Orchestrator**  
   Runs all agents in sequence and collects the final report.
 
 ---
 
-## 🧱 Tech Stack
+##  Tech Stack
 
 - **Language:** Python 3.10+
 - **Orchestration:** CrewAI
